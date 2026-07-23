@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: public.ecr.aws/example/app
+  tag: latest
+service:
+  type: ClusterIP
+  port: 80

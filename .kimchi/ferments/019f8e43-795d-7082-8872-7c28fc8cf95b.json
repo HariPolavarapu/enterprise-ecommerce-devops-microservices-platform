@@ -1,0 +1,17 @@
+{
+  "id": "019f8e43-795d-7082-8872-7c28fc8cf95b",
+  "name": "Enterprise-Architecture-Design",
+  "description": "Transform the Google Online Boutique (GoogleCloudPlatform/microservices-demo) into a real enterprise-grade e-commerce application while preserving its existing architecture as much as possible. The user wants a comprehensive architecture design document covering all existing services, new enterprise components, PostgreSQL schemas, Kafka topics, API Gateway design, authentication with Keycloak, OpenSearch search, S3 object storage, and detailed architecture diagrams.",
+  "status": "draft",
+  "worktree": {
+    "path": "/mnt/c/Users/phari/OneDrive/Desktop/Devops/Projects/enterprise-ecommerce-devops-microservices-platform",
+    "branch": "main",
+    "commit": "9a4616e77f0f9cbcbecaf27d711c38890dda1404"
+  },
+  "scoping": {},
+  "phases": [],
+  "decisions": [],
+  "memories": [],
+  "createdAt": "2026-07-23T09:16:54.493Z",
+  "updatedAt": "2026-07-23T09:16:54.493Z"
+}

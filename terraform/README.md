@@ -12,9 +12,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. -->
 
-# Use Terraform to deploy Online Boutique on a GKE cluster
+# Terraform platform modules
 
-This page walks you through the steps required to deploy the [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo) sample application on a [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) cluster using Terraform.
+This directory now includes reusable Terraform modules for an enterprise-grade platform around the Online Boutique application.
+
+## Modules
+- modules/eks: EKS cluster and node group for production workloads
+- modules/rds: managed PostgreSQL with multi-AZ and backups
+- modules/redis: managed Redis replication group for caching
+- modules/iam: least-privilege IAM role for application workloads
 
 ## Prerequisites
 

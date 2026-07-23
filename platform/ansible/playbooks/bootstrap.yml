@@ -1,0 +1,13 @@
+- hosts: all
+  become: true
+  tasks:
+    - name: install base packages
+      apt:
+        name: [curl, wget, unzip, jq, docker.io, python3-pip]
+        update_cache: true
+        state: present
+    - name: enable docker
+      service:
+        name: docker
+        enabled: true
+        state: started

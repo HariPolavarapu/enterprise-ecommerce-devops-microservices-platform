@@ -1,4 +1,11 @@
-# Helm chart for Online Boutique
+# Enterprise Helm chart for Online Boutique
+
+This chart deploys the microservices application with production-ready defaults for ingress, security contexts, monitoring, and environment-aware configuration.
+
+## Features
+- Secure pod and container defaults
+- Optional ingress and service monitor configuration
+- Environment-aware values for production deployments
 
 If you'd like to deploy Online Boutique via its Helm chart, you could leverage the following instructions.
 
